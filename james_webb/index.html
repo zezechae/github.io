@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JAMES_WEBB</title>
+</head>
+<body>
+    <form id="greetings" class="hidden">
+        <input type="text"
+        required
+        maxlength="15"
+        placeholder="What is your name?" 
+        />
+        <input type="submit"
+        value="log-in" />
+    </form>
+    <h1 id="hello" class="hidden"></h1>
+    <h2 id="clock"></h2>
+    <form id="todo-form">
+        <input type="text" 
+        placeholder="Write a To do and Press enter." 
+        required />
+    </form>
+    <ul id="todo-list">
+    </ul>
+</body>
+<div id="weather">
+    <span></span>
+    <span></span>
+</div>
+<script src="JS/background.js"></script>
+<script src="JS/clock.js"></script>
+<script src="JS/geolocation.js"></script>
+<script src="JS/greetings.js"></script>
+<script src="JS/to-do.js"></script>
+</html>
